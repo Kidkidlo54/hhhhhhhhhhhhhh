@@ -1,0 +1,32 @@
+.btn-warning:hover{
+    background-color: red;
+    color: blue;
+}
+
+body{
+    background-color: orangered;
+}
+h1{
+    color: lightskyblue;
+    background-color: gold;
+}
+
+#showdraw{
+    float:right;
+}
+canvas{
+    border: 5px;
+    border-radius: 20px;
+    animation-name: ex;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes ex{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow:1px 1px 38px whitesmoke;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
